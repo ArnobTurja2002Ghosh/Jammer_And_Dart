@@ -1,24 +1,11 @@
 # Jammer_And_Dart
-Jammer Oscillator and Dart Glider
+<p>Jammer Oscillator and Dart Glider</p>
+<p>Main function is in Sim134.java</p>
 
-For the time being, they are using two different cmds.
-<br/><br/>
-
-For the Jammer Oscillator, command: java Initial 80 80 10
-
-where 80 is the number of cells horizontally and vertically (although I forgot which one is horizontal and which vertical),
-
-10 is the size of each cell
-
-My next task is to make the number of cells default - not based on user command.
-<br/><br/>
-
-For the Dart Oscillator, command: java Model 80 80 5 80
-
-where 80 is the number of cells horizontally and vertically (although I forgot which one is horizontal and which vertical),
-
-5 is the size of each cell
-
-80 is the number of iterations (this is a good argument and I am gonna retain it)
-
-My next task is to make the number of cells default - not based on user command.
+<p>Tested using the commands:
+  - java Sim134 300 R
+  - java Sim134 80 J
+  - java Sim134 200 D
+</p>
+<p> "R", "J" and "D" stand for "Random", "Jam" and "Dart" respectively. However you can put any other character just to see the kingdom of White Walkers (white cells - white walkers - dead - Game of Thrones - get it? anyone?). </p>
+<p> main functions have been removed from Initial.java and Model.java </p>
