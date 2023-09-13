@@ -152,10 +152,10 @@ public class Model
     } // ends nextGeneration method
     public static void main(String[] args)
     {
-        int x = Integer.parseInt(args[0]);
-        int y = Integer.parseInt(args[1]);
-        int m = Integer.parseInt(args[2]);
-        int k1 = Integer.parseInt(args[3]);
+        int x = 80;
+        int y = 80;
+        int m = Integer.parseInt(args[0]);
+        int k1 = Integer.parseInt(args[1]);
         
         Model picDemo = new Model(x,y,m);
         int[][]grid11 = {

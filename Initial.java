@@ -5,10 +5,10 @@ public class Initial
     private int magnification;  // pixel-width of each cell
     private int[][] cells;      // cells to be randomly coloured
     private Picture pic;        // picture to be drawn on screen
-    public Initial(int x, int y, int magnification)
+    public Initial(int magnification)
     {
-        this.x = x;
-        this.y = y;
+        x = 80;
+        y = 80;
         this.magnification = magnification;
         cells = new int[x][y];
         pic = new Picture(x * magnification, y * magnification);
@@ -131,11 +131,11 @@ public class Initial
     } // ends nextGeneration method
     public static void main(String[] args)
     {
-        int x = Integer.parseInt(args[0]);
-        int y = Integer.parseInt(args[1]);
-        int m = Integer.parseInt(args[2]);
+        int x = 80;
+        int y = 80;
+        int m = Integer.parseInt(args[0]);
         
-        Initial picDemo = new Initial(x,y,m);
+        Initial picDemo = new Initial(m);
         int[][]grid11 = {
             {0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 1, 1, 0, 0, 0},
